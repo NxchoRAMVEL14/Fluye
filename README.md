@@ -13,6 +13,7 @@
 | 💬 **Tutor IA** | Conversaciones por escrito con Claude en 8 escenarios (entrevista, cliente, médico, aeropuerto, restaurante, tienda, conocer gente, libre). Responde en inglés, corrige en español 📝 y sugiere frases más naturales ✨. |
 | 📈 **Progreso** | XP, títulos, racha diaria y medidor de fluidez. Todo se guarda automáticamente en tu navegador. |
 | 🧭 **Intro + Manual** | Pantalla de bienvenida la primera vez y manual de uso integrado que se actualiza con cada versión. |
+| 📲 **Instalable (PWA)** | Se instala en el celular como una app normal (icono propio, pantalla completa) y las lecciones y el vocabulario funcionan sin internet. |
 | 💡 **Mejorar la app** | Buzón de sugerencias que se conecta con los *Issues* de este repositorio. |
 
 ## 🚀 Correr en tu computadora

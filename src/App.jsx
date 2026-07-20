@@ -2104,7 +2104,7 @@ function OnboardingFlow({ initialName, onDone }) {
 
 /* ============================ MANUAL DE USO ============================ */
 
-const MANUAL_VERSION = "2.1";
+const MANUAL_VERSION = "2.2";
 const MANUAL = [
   {
     t: "Cómo estudiar con Fluye",
@@ -2131,12 +2131,16 @@ const MANUAL = [
     b: "Todo (tu nombre, XP, racha, lecciones, tarjetas, sugerencias y la API key del tutor) se guarda únicamente en el navegador de este dispositivo (localStorage): la app no tiene servidor propio ni envía tus datos a ninguna parte. Si borras los datos del navegador o cambias de dispositivo, el progreso no te sigue. Lo único que sale de tu equipo son los mensajes que escribes al Tutor IA (van a la API de Anthropic) y las sugerencias que tú decidas publicar en GitHub.",
   },
   {
+    t: "Instalar en tu celular",
+    b: "Fluye es una PWA: puedes instalarla como una app normal, con su propio icono y a pantalla completa. En Android (Chrome): abre la página, menú ⋮ → «Instalar aplicación» (o «Agregar a pantalla de inicio»). En iPhone (Safari): botón de compartir → «Agregar a pantalla de inicio». Una vez instalada, las lecciones y el vocabulario funcionan incluso sin internet; el Tutor IA sí necesita conexión.",
+  },
+  {
     t: "Preguntas frecuentes",
     b: "¿Puedo empezar en Intermedio o Avanzado? Sí, las lecciones no están bloqueadas. ¿No suena el audio? Revisa el volumen y que tu navegador permita voz (funciona mejor en Chrome/Edge/Safari). ¿Qué necesita el tutor? Internet y una API key de Anthropic que guardas una sola vez en la pestaña Tutor; se queda solo en tu navegador. ¿Puedo reiniciar? Sí, en Más → Opciones → Reiniciar progreso.",
   },
   {
     t: "Historial de versiones",
-    b: "v2.1 (18 jul 2026): versión de código abierto lista para GitHub — guardado con localStorage, Tutor IA con tu propia API key de Anthropic y buzón conectado a GitHub Issues. — v2.0 (18 jul 2026): pantalla de introducción, este manual, buzón de mejoras, saludo personalizado, 4 mazos nuevos (salud, compras, vida diaria, números y horas) y 3 escenarios nuevos (médico, conocer gente, de compras). Contenido generalizado para cualquier persona. — v1.0 (15 jul 2026): 15 lecciones, 6 mazos, Tutor IA, XP y racha. Este manual se actualiza con cada nueva versión.",
+    b: "v2.2 (19 jul 2026): instalable como aplicación (PWA) con icono propio, pantalla completa y modo sin internet para lecciones y vocabulario. — v2.1 (18 jul 2026): versión de código abierto lista para GitHub — guardado con localStorage, Tutor IA con tu propia API key de Anthropic y buzón conectado a GitHub Issues. — v2.0 (18 jul 2026): pantalla de introducción, este manual, buzón de mejoras, saludo personalizado, 4 mazos nuevos (salud, compras, vida diaria, números y horas) y 3 escenarios nuevos (médico, conocer gente, de compras). Contenido generalizado para cualquier persona. — v1.0 (15 jul 2026): 15 lecciones, 6 mazos, Tutor IA, XP y racha. Este manual se actualiza con cada nueva versión.",
   },
 ];
 
