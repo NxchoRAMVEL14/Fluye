@@ -1,0 +1,24 @@
+{
+  "name": "fluye",
+  "private": true,
+  "version": "2.1.0",
+  "type": "module",
+  "description": "App web gratuita para aprender inglés (hispanohablantes): lecciones, vocabulario con audio, tutor IA y progreso.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.383.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "tailwindcss": "^4.0.0",
+    "vite": "^5.4.0"
+  }
+}
